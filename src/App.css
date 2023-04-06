@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.headPagination{
+  background-color: rgb(120, 147, 179);
+  border-radius: 5px;
+  color: rgb(241, 245, 249);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.footPagination{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  /* establecer el estilo del footer */
+  background-color: rgb(120, 147, 179);
+  color: #fff;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.data{
+   background-color: rgb(236, 237, 237);
+   border-radius: 7px;
+   font-weight: bolder;
+   color: rgb(66, 65, 65);
+   margin-bottom: 1rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+  /* min-height: 220px; */  /* dejar fijo el alto donde se muestran datos*/
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   overflow-y: auto; /* agrega una barra de desplazamiento vertical si el contenido excede la altura */
+}
+
+.actionsPage{
+   display: flex;
+   justify-content: center;
+   column-gap: 20px;
+   margin-top: 1rem;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+

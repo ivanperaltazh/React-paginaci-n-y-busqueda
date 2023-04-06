@@ -2,6 +2,7 @@ import { useState } from 'react';
 import PruebaPagination from '../components/PruebaPagination';
 import Search from '../components/Search';
 import Select from '../components/Select';
+import Borrador from './Borrador';
 
 
 const PaginationDemo = () => {
@@ -84,6 +85,7 @@ const PaginationDemo = () => {
                        </div>
 
                 </div>
+                      <Borrador/>
 
                     <hr /> 
                     <p className='footPagination'> <small>( usa Bootstrap-3.3.5 ) </small> </p>
